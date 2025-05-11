@@ -1,0 +1,57 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #968d8d; /* Change to your desired background color */
+  color: #333; /* Change to your desired text color */
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: #99885f; /* Change to your desired container background color */
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+}
+
+/* Creator section styles */
+.creator {
+  margin-bottom: 50px; /* Increase space between creator sections */
+  display: flex;
+  align-items: center;
+}
+
+.creator img {
+  width: 120px; /* Increase image size for better visibility */
+  height: 120px;
+  border-radius: 50%;
+  margin-right: 30px; /* Increase spacing between image and text */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow to the image */
+}
+
+.creator h2 {
+  margin: 0;
+  font-size: 24px; /* Increase font size for creator names */
+}
+
+.creator p {
+  margin: 10px 0; /* Add spacing between paragraphs */
+  font-size: 16px; /* Increase font size for better readability */
+  line-height: 1.5; /* Improve line spacing for better readability */
+}
+
+h1{
+background-color: aqua;
+border-radius: 50px;
+display: inline-block;
+padding :10px 15px;
+}
+
+/* Additional styling for links */
+a {
+  color: #007bff; /* Change link color to a primary color */
+  text-decoration: none; /* Remove default underline */
+}
+
+a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
